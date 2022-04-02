@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Follow Us At</title>
+    <style>
+        .heading {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 50px;
+        }
+
+        .navigation {
+            display: flex;
+            /* background-color: rgb(220, 223, 245); */
+        }
+
+        .base {
+            display: flex;
+            width: 80%;
+        }
+
+        .base li {
+            list-style: none;
+            padding: 5px 70px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .base li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .base li a:hover {
+            color: rgb(63, 63, 235);
+        }
+
+        #search {
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 7px;
+            display: flex;
+        }
+
+        .btn {
+            padding-left: 40%;
+            display: flex;
+            align-items: center;
+        }
+
+        .b1 {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px;
+            font-style: italic;
+        }
+
+        .b1:hover {
+            color: white;
+            background-color: black;
+        }
+
+        #logo {
+            width: 125px;
+            height: 125px;
+            border-radius: 100px;
+            border: 2px solid rgb(9, 9, 73);
+        }
+
+
+        .main {
+            text-align: center;
+            border: 3px solid black;
+            color: rgb(55, 2, 12);
+            /* background-color: rgb(226, 73, 99); */
+        }
+
+        .about {
+            font-size: 25px;
+            font-display: auto;
+        }
+
+        .services {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        body {
+            background: rgba(166, 119, 88, 0.7) url(img/bg1.jpg);
+            /* background-color: gray; */
+            background-size: cover;
+            background-blend-mode: lighten;
+
+        }
+
+        .list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .key {
+            font-size: 30px;
+            font-weight: bold;
+            list-style: none;
+        }
+
+        .key2 {
+            list-style: disc;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 15px;
+
+        }
+
+        .more {
+            font-size: 35px;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-stretch: wider;
+            text-align: center;
+
+        }
+
+        .contact {
+            color: black;
+
+
+
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .form {
+            margin: auto;
+            max-width: 380px;
+        }
+
+        .form input {
+            margin: 30px 0px;
+            width: 100%;
+            font-size: 19px;
+            border: 2px solid gray;
+            border-radius: 6px;
+            padding: 1px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .c1:hover,
+        .c2:hover,
+        .c3:hover,
+        .c4:hover,
+        .c5:hover {
+            transform: scale(1.25);
+            border: 2px solid black;
+        }
+
+        .c1:hover:after,
+        .c2:hover:after,
+        .c3:hover:after,
+        .c4:hover:after,
+        .c5:hover:after {
+            transform: scale(1.25);
+            border: 2px solid black;
+            opacity: 1;
+        }
+
+        .c1:after,
+        .c2:after,
+        .c3:after,
+        .c4:after,
+        .c5:after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: red;
+            opacity: 0;
+            position: relative;
+            transition: .3s all;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .your
+        {
+            font-family: serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="base">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo" id="logo">
+                <H2 class="your"><u>Your Travle Catalogue!!</u></H2>
+
+            </div>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#about">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#contact">Contact Us</a></li>
+            <li><div class="dropdown">
+                <span>Follow</span>
+                <div class="dropdown-content">
+                    <p><a href="follow.html" >Links</a></p>
+                </div>
+            </div></li>
+        </ul>
+    </nav>
+    <br><br>
+    <h1>
+        Follow our Instagram:"_travelouge_"
+        <img src="img/f1.jpg" alt="f1" id="f1">
+    </h1>
+    <br>
+    <h1>
+        Follow our Facebook Page:"travelouge"
+        <img src="img/f2.webp" alt="f2" id="f2">
+    </h1>
+    <h1>
+        Subscribe to our Youtube Channel:"travelouge"
+    </h1>
+
+    <div class="video">
+        <iframe width="1000" height="400" src="https://www.youtube.com/embed/0GZSfBuhf6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe width="1000" height="400" src="https://www.youtube.com/embed/GljTvdEDqJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
